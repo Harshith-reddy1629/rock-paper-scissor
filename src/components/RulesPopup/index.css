@@ -1,0 +1,30 @@
+.popup-content {
+  width: 600px !important;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 50px 30px 30px 30px;
+}
+@media (max-width: 768px) {
+  .popup-content {
+    width: 90% !important;
+  }
+}
+.close-btn {
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  border: 0ch;
+  /* padding: 5px; */
+  width: 30px;
+  height: 30px;
+  background-color: rgb(60, 129, 241);
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.rules-image {
+  width: 100%;
+}

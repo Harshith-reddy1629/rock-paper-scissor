@@ -1,0 +1,14 @@
+.Image-btn {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
+@media (max-width: 768px) {
+  .Image-btn {
+    padding: 0;
+  }
+}
+.image-eff:hover {
+  scale: 102%;
+  filter: drop-shadow(1px 1px 1px);
+}

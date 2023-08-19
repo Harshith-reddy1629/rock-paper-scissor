@@ -1,0 +1,58 @@
+.score-text {
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+.score-digit {
+  color: goldenrod;
+  font-size: 32px;
+}
+.scorecard-bar {
+  background-color: #fff;
+  border-radius: 12px;
+  color: #223a5f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  padding: 30px 20px 30px 20px;
+  width: 15%;
+  gap: 14px;
+}
+.scorecard-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  width: 70%;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .scorecard-container {
+    flex-direction: column;
+  }
+  .br {
+    display: none;
+  }
+  .heading {
+    font-size: 22px;
+    margin: 0 0 10px 0;
+  }
+  .scorecard-bar {
+    background-color: #fff;
+    border-radius: 12px;
+    color: #223a5f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    padding: 10px 0;
+    width: 80%;
+    gap: 0px;
+  }
+}
